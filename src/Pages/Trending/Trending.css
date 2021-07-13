@@ -1,0 +1,28 @@
+*::selection {
+  background: #520101;
+}
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pageTitle {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-weight: 600;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: unset;
+}
+.footer-icons {
+  padding: 0.4rem;
+  border-radius: 50%;
+  transition: var(--transition);
+  background: rgb(117, 2, 2);
+}
+.footer-icons:hover {
+  transition: var(--transition);
+  background: rgb(189, 4, 4);
+}

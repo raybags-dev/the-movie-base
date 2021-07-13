@@ -1,0 +1,48 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #000000;
+  border-radius: 10px;
+  position: relative;
+  transition: var(--transition);
+  font-family: "Montserrat", sans-serif;
+}
+
+.media:hover {
+  background: rgb(65, 1, 1);
+  color: white;
+  transition: var(--transition);
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+  color: red;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+.content-model{
+  position: relative;
+}
